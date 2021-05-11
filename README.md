@@ -7,11 +7,15 @@
 2.notebook在我本地其实自带编号，可以实行块的收缩，但是如果你们只下载notebook可能是没有显示，可以在Anaconda prompt或者其他终端打开环境，并且输入
 
   pip install jupyter_contrib_nbextensions
+  
   pip install jupyter_nbextensions_configuratorjupyter contrib nbextension install
   
 并且在extension出来之后勾选：
+
   Table of contents
+  
   Collapsible headings
+  
 这个插件的安装具体操作可以上：https://www.bilibili.com/read/cv10371136/ 查看
 
 3.notebook的安装教程 ： https://blog.csdn.net/hh445782/article/details/106318065
