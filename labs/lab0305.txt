@@ -1,0 +1,43 @@
+﻿Lab 1: 使用IDLE 
+
+1. 在自己的机器安装Python开发环境 （如果已有开发环境，可以跳过） 
+
+2. 学会如何启动Python集成开发环境IDLE　
+
+3. 在Python控制台执行简单的Python代码，进行简单的算术运算： 比如： 
+
+   5+10
+   5*10
+   5-7
+   10/2
+   10//2
+   7/2
+   7//2 
+   7**2 
+   (15+4*8+9)//7
+   
+4. 学会通过IDLE编写python源程序并执行该程序 
+
+
+print('Lab 1')
+
+name = input("What is your name?")
+
+print("Hi", name, ", welcome to the Python world.")
+
+
+5. 在资源管理器中双击第4步编写的.py文件，看看结果怎样？ 
+
+在.py文件后附加一行，看看有什么不同 
+
+input("Press Return to exit....") 
+
+
+6. 下列名字是否是一个合适的变量名？
+
+   lower_case_with_underscores     _s1         __s1
+   class      class_     type    type_ 
+mike's       new-item    4bags    
+a_really_long_name_it_is_ok_I_hope_so_let_me_try_it_again_but_please_donot_use_python_keywords_also_no_builtin_types = 5 
+   学生总数   
+

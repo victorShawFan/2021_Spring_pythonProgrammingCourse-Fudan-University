@@ -1,0 +1,132 @@
+	
+
+-------------元组	
+1)  t = (1, 2, 4, 3), 下列代码执行后的结果分别是什么？
+	 A. print(t[3])
+	 B. t[3] = 45
+	 C. print(max(t))
+	 D. print(len(t))
+	 E. print(sum(t))
+
+2) *假设 t = (1, 2, 4, 3), t[1 : 3]为？ 
+	 A. (1, 2)
+	 B. (1, 2, 4)
+	 C. (2, 4)
+	 D. (2, 4, 3)
+	 E. (1, 2, 4, 3)
+
+	
+3) * 假设 t = (1, 2, 4, 3), t[1 : -1]为?
+	 A. (1, 2)
+	 B. (1, 2, 4)
+	 C. (2, 4)
+	 D. (2, 4, 3)
+	 E. (1, 2, 4, 3)
+
+4) 假设 t = (1, 2), 2 * t 为？ 
+	 A. (1, 2, 1, 2)
+	 B. [1, 2, 1, 2]
+	 C. (1, 1, 2, 2)
+	 D. [1, 1, 2, 2]
+	 E. 异常
+
+	
+5) 假设 t1 = (1, 2, 4, 3), t2 = (1, 2, 3, 4), t1 < t2结果为？ 
+	 A. True
+	 B. False
+
+
+6) *下列代码执行后输出为？ 
+
+x,y = 1,2
+x, y = y, x
+print(x, y)
+
+	 A. 1 1
+	 B. 2 2
+	 C. 1 2
+	 D. 2 1
+	
+
+7) 下列代码执行后变量x、y和z 的值是什么？  
+
+x, y, z = '123' 
+
+	 A. 1  2 3 
+	 B. '1' '2' '3' 
+	 C. '123' ''  ''  
+	 D. '123'  None  None 
+
+
+
+————字典----———
+
+1) 下列语句执行后d为一个字典的是？ 
+	 A. d = {}
+	 B. d = {"john":40, "peter":45} 
+	 C. d = {40:"john", 45:"peter"} 
+	 D. d = (40:"john", 45:"peter") 
+
+2)  假设d = {"john":40, "peter":45},  "john" in d 的结果为  
+	 A. True
+	 B. False
+
+3） 假设 d1 = {"john":40, "peter":45} , d2 = {"john":466, "peter":45}, d1 == d2 的结果为？ 
+	 A. True
+	 B. False
+	 C. 异常
+
+4） 假设 d1 = {"john":40, "peter":45} , d2 = {"john":466, "peter":45}, d1 > d2 的结果为？ 
+	 A. True
+	 B. False
+	 C. 异常
+
+5)  假设d = {"john":40, "peter":45},  d["john"] =？
+	 A. 40
+	 B. 45
+	 C. "john"
+	 D. "peter"
+
+6)  *假设d = {"john":40, "peter":45},  为了删除 "john":40, 可以使用哪条语句？
+	 A. d.pop("john")
+	 B. d.delete("john")
+	 C. del d["john"]
+	 D. del d("john":40)
+
+
+7)  假设d = {"john":40, "peter":45}, 为了知道字典有多少项，可以使用哪条语句？
+	 A. d.size()
+	 B. len(d)
+	 C. size(d)
+	 D. d.len()
+
+8) *下列代码执行后输出为？
+
+d = {"john":40, "peter":45}
+print(list(d.keys()))
+
+	 A. ["john", "peter"]
+	 B. ["john":40, "peter":45]
+	 C. ("john", "peter")
+	 D. ("john":40, "peter":45)
+
+9)  假设d = {"john":40, "peter":45}, 执行语句s = d[45]后s的值是？
+	 A. "peter"
+	 B. None
+	 C. 抛出异常KeyError
+	 D. 语法错
+
+	
+10) 下列代码执行后的结果是？ 
+
+dict1 =  dict(one=1, two=2, three = 3)
+for k,v in enumerate(dict1): 
+		print(v,end='\t')
+
+	A. three	two 	one
+	B. 3		2 		1 
+	C. (0, 3)	(1, 2)	(3, 1)
+	D. 抛出异常 
+
+	
+	
