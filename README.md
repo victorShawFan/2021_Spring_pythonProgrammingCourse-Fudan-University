@@ -3,7 +3,20 @@
 
 ⭐python_course.ipynb - 我个人根据python程序设计的课件整理的notebook，并且附带有一些个人整理的常用库，函数，和pythonic_programming的使用方法，可以作为新手学习python和进阶的参考，也可以作为一个工具书handbook，在需要使用什么python语法不记得的时候在notebook内 Ctrl+F 查询即可找到用法和例子，立刻上手使用
 
-目录: 1.python基础 2.列表list专题 3.列表推导式 4.切片 5.tuple元组专题 6.序列解包 7.dict字典专题 8.set集合专题 9.字符串专题 10.二维矩阵专题 11.程序结构设计 12.文件操作 13.附录: 13.1-efficient python : pythonic programming 13.2 其他常用的库 13.3 其他常用数据结构 13.4  其他常用函数
+目录: 
+1.python基础
+2.列表list专题
+3.列表推导式
+4.切片(slicing)
+5.tuple元组专题
+6.序列解包(sequence unpacking)
+7.dict字典专题
+8.set集合专题
+9.字符串专题
+10.二维矩阵专题
+11.程序结构设计
+12.文件操作
+13.附录: 13.1-efficient python : pythonic programming 13.2 其他常用的库 13.3 其他常用数据结构 13.4  其他常用函数
 
 其中一部分示例 : 
 pythonic_programming - 快速列表字典解包合并，过滤，实际检查变量内存占用等
