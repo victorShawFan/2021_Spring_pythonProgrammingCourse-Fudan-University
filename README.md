@@ -2,6 +2,7 @@
 
 
 ⭐python_course.ipynb - 我个人根据python程序设计的课件整理的notebook，并且附带有一些个人整理的常用库，函数，和pythonic_programming的使用方法，可以作为新手学习python和进阶的参考，也可以作为一个工具书handbook，在需要使用什么python语法不记得的时候在notebook内 Ctrl+F 查询即可找到用法和例子，立刻上手使用
+simple版本的上传是因为部分同学反映原版图片较多，打开会卡住，simple版本中我删去了所有图片，代码同样有效
 
 目录: 
 
